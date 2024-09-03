@@ -18,32 +18,40 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.com/libraries/modern-normalize"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html">Web<span>Studio</span></a>
-        <ul>
-          <li><a class="header-list__first" href="./index.html">Studio</a></li>
-          <li><a class="header-list__first" href="">Portfolio</a></li>
-          <li><a class="header-list__first" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="header-address">
-        <ul>
-          <li>
-            <a class="contact-info__first" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contact-info__first" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo" href="./index.html">Web<span>Studio</span></a>
+          <ul class="menu">
+            <li>
+              <a class="header-list__first" href="./index.html">Studio</a>
+            </li>
+            <li><a class="header-list__first" href="">Portfolio</a></li>
+            <li><a class="header-list__first" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-address__list">
+            <li>
+              <a class="contact-info__first" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-info__first" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
@@ -147,7 +155,9 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="./index.html">Web<span class="sub-logo">Studio</span></a>
+      <a class="logo" href="./index.html"
+        >Web<span class="sub-logo">Studio</span></a
+      >
       <p class="text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
