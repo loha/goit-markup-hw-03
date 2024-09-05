@@ -144,6 +144,10 @@ header address .contact-info__first:focus {
   background-color: #404bbf;
 }
 
+.second-content {
+  padding: 120px 0;
+}
+
 .second-content .second-content__list {
   display: flex;
   gap: 24px;
@@ -173,6 +177,9 @@ header address .contact-info__first:focus {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+.third-content .third-content__container {
+  padding: 32px 0;
+}
 
 .third-content .third-content__list-item {
   background-color: #ffffff;
@@ -187,6 +194,8 @@ header address .contact-info__first:focus {
   font-size: 36px;
   line-height: 1.11;
   margin-bottom: 72px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .third-content .third-content__list {
@@ -207,11 +216,24 @@ header address .contact-info__first:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .third-content .third-content__list-item .title {
   font-size: 20px;
   line-height: 1.2;
+}
+
+.fourth-content {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.fourth-content .fourth-content__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .fourth-content .title {
@@ -221,6 +243,17 @@ header address .contact-info__first:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.fourth-content .fourth-content__list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.fourth-content .fourth-content__container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .fourth-content .fourth-content__list-item .title {
@@ -229,6 +262,7 @@ header address .contact-info__first:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .fourth-content .fourth-content__list-item .text {
