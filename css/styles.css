@@ -80,6 +80,7 @@ header address .contact-info__first:focus {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 
 .navigation {
@@ -89,6 +90,7 @@ header address .contact-info__first:focus {
 
 .first-content {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .first-content .title {
