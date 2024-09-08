@@ -153,7 +153,7 @@ header address .contact-info__first:focus {
   gap: 24px;
 }
 
-.second-content .second-content__list .second-content__list-item {
+.second-content .second-content__list-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -195,7 +195,7 @@ header address .contact-info__first:focus {
   line-height: 1.11;
   margin-bottom: 72px;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .third-content .third-content__list {
@@ -223,6 +223,8 @@ header address .contact-info__first:focus {
   font-size: 20px;
   line-height: 1.2;
 }
+
+
 
 .fourth-content {
   padding-top: 120px;
