@@ -120,6 +120,7 @@ header address .contact-info__first:focus {
 }
 
 .navigation {
+  display: flex;
   align-items: center;
 }
 
