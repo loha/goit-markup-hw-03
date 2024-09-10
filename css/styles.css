@@ -101,6 +101,10 @@ header address .contact-info__first:focus {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header .header-container {
+  display: flex;
+}
+
 .header-address .header-address__list {
   gap: 40px;
 }
