@@ -70,6 +70,7 @@ nav ul .header-list__first {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 nav ul .header-list__first:first-child {
@@ -91,6 +92,7 @@ nav ul .header-list__first:focus {
 
 header address {
   font-style: normal;
+  margin: auto;
 }
 
 header address .contact-info__first {
@@ -98,6 +100,8 @@ header address .contact-info__first {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
 }
 
 header address .contact-info__first:hover {
@@ -149,6 +153,9 @@ header address .contact-info__first:focus {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .first-content .order-button {
@@ -165,6 +172,7 @@ header address .contact-info__first:focus {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .first-content .order-button:hover {
@@ -219,10 +227,9 @@ header address .contact-info__first:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  margin-bottom: 72px;
   text-align: center;
   margin-bottom: 72px;
 }
@@ -255,6 +262,7 @@ header address .contact-info__first:focus {
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .fourth-content {
@@ -298,6 +306,7 @@ header address .contact-info__first:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .fourth-content .fourth-content__list-item .text {
