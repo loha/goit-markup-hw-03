@@ -4,7 +4,8 @@ body {
   background-color: white;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -22,6 +23,11 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+a {
+  text-decoration: none; /* Відміняє підкреслення */
+  color: inherit; /* Використовує колір тексту, встановлений для батьківського елементу */
 }
 
 .visually-hidden {
@@ -55,6 +61,7 @@ p {
 
 .logo span {
   color: #2e2f42;
+  position: relative;
 }
 
 nav ul .header-list__first {
@@ -63,6 +70,10 @@ nav ul .header-list__first {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+}
+
+nav ul .header-list__first:first-child {
+  color: #404bbf;
 }
 
 nav ul .header-list__first:hover {
@@ -99,6 +110,8 @@ header address .contact-info__first:focus {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .header-container {
